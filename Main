@@ -1,0 +1,137 @@
+local notificaciondeloading = Instance.new("ScreenGui")
+local notificacionbase = Instance.new("Frame")
+local notificacion = Instance.new("Frame")
+local notificacionlabel1 = Instance.new("TextLabel")
+local UICorner = Instance.new("UICorner")
+local Info = Instance.new("TextLabel")
+local dowloading = Instance.new("TextLabel")
+local UICorner_2 = Instance.new("UICorner")
+ 
+--Properties:
+ 
+notificaciondeloading.Name = "notificaciondeloading"
+notificaciondeloading.Parent = game.CoreGui
+notificaciondeloading.ZIndexBehavior = Enum.ZIndexBehavior.Sibling
+ 
+notificacionbase.Name = "notificacionbase"
+notificacionbase.Parent = notificaciondeloading
+notificacionbase.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+notificacionbase.Position = UDim2.new(1, -242, 1, -177)
+notificacionbase.Size = UDim2.new(0, 242, 0, 177)
+ 
+notificacion.Name = "notificacion"
+notificacion.Parent = notificacionbase
+notificacion.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+notificacion.Position = UDim2.new(0.0143520888, 0, 0.0343660451, 0)
+notificacion.Size = UDim2.new(0, 235, 0, 163)
+ 
+notificacionlabel1.Name = "notificacionlabel1"
+notificacionlabel1.Parent = notificacion
+notificacionlabel1.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+notificacionlabel1.BorderColor3 = Color3.fromRGB(0, 0, 0)
+notificacionlabel1.Position = UDim2.new(0.0723404288, 0, 0.0483037084, 0)
+notificacionlabel1.Size = UDim2.new(0, 200, 0, 29)
+notificacionlabel1.Font = Enum.Font.SourceSans
+notificacionlabel1.Text = "Welcome to Net: Loading"
+notificacionlabel1.TextColor3 = Color3.fromRGB(255, 255, 255)
+notificacionlabel1.TextScaled = true
+notificacionlabel1.TextSize = 35.000
+notificacionlabel1.TextWrapped = true
+ 
+UICorner.Parent = notificacion
+ 
+Info.Name = "Info"
+Info.Parent = notificacion
+Info.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+Info.BorderColor3 = Color3.fromRGB(0, 0, 0)
+Info.Position = UDim2.new(0.0723404288, 0, 0.288343549, 0)
+Info.Size = UDim2.new(0, 200, 0, 50)
+Info.Font = Enum.Font.SourceSans
+Info.Text = "Loading please wait for the connection"
+Info.TextColor3 = Color3.fromRGB(255, 255, 255)
+Info.TextScaled = true
+Info.TextSize = 14.000
+Info.TextWrapped = true
+ 
+dowloading.Name = "dowloading"
+dowloading.Parent = notificacion
+dowloading.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+dowloading.BorderColor3 = Color3.fromRGB(0, 0, 0)
+dowloading.Position = UDim2.new(0.0723404288, 0, 0.705521464, 0)
+dowloading.Size = UDim2.new(0, 200, 0, 25)
+dowloading.Font = Enum.Font.SourceSans
+dowloading.Text = "Waiting Connection"
+dowloading.TextColor3 = Color3.fromRGB(255, 255, 255)
+dowloading.TextScaled = true
+dowloading.TextSize = 14.000
+dowloading.TextWrapped = true
+ 
+UICorner_2.Parent = notificacionbase
+ 
+print("Welcome user")
+ 
+wait(4)
+ 
+dowloading.Text = "dowloading scripts" --5
+wait(0.1)
+dowloading.Text = "dowloading other"
+wait(0.1)
+dowloading.Text = "dowloading guis"
+wait(0.1)
+dowloading.Text = "dowloading Net api.Furryapi"
+wait(0.1)
+dowloading.Text = "dowloading frames"
+wait(0.1)
+dowloading.Text = "dowloading lua" --10
+wait(0.1)
+dowloading.Text = "dowloading Furryapi.Tools"
+wait(0.1)
+dowloading.Text = "dowloading Furryapi.filter"
+wait(0.1)
+dowloading.Text = "dowloading Locals scripts"
+wait(0.1)
+dowloading.Text = "dowloading scripts"
+wait(0.1)
+dowloading.Text = "dowloading https://www.Netapi/sounds"
+wait(0.1)
+dowloading.Text = "dowloading https://www.Netapi/Libs"
+wait(0.1)
+dowloading.Text = "dowloading Tweenpos"
+wait(0.1)
+dowloading.Text = "dowloading Jailbreak Gui"
+wait(0.1)
+ 
+wait(2)
+ 
+dowloading.Text = "executing Scripts (Alert error: 101)"
+notificacionbase.BackgroundColor3 = Color3.fromRGB(0, 255, 0)
+ 
+wait(3) --23
+ 
+notificacionbase.BackgroundColor3 = Color3.fromRGB(0, 230, 0)
+wait(1)
+notificacionbase.BackgroundColor3 = Color3.fromRGB(0, 200, 0)
+wait(1)
+notificacionbase.BackgroundColor3 = Color3.fromRGB(0, 100, 0)
+wait(1)
+notificacionbase.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+wait(1) --27
+ 
+local tween = game:GetService("TweenService"):Create(notificacionbase, TweenInfo.new(1), {Position = UDim2.new(0.99999994, 0, 0.653061211, 0)})
+tween:Play()
+ 
+wait(1)
+local games = {
+    [{606849621}] = "https://raw.githubusercontent.com/comet3456998765/jailbreakgui/main/Jailbreakguiscript.lua",
+    [{413424176}] = "https://raw.githubusercontent.com/comet3456998765/Clone-Tycoon-2/main/YesNetGui",
+    [{155615604}] = "https://raw.githubusercontent.com/comet3456998765/All-games-new-/main/ForGamedetector",
+    [{13822889}] = "https://raw.githubusercontent.com/comet3456998765/Scripts/main/LT2SCRIPT.lua",
+    [{6447798030}] = "https://raw.githubusercontent.com/comet3456998765/Games/main/(FunkyFryday).lua"
+}
+ 
+for ids, url in next, games do
+    if table.find(ids, game.PlaceId) then
+        loadstring(game:HttpGet(url))()
+        break
+    end
+end
