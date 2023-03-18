@@ -30,7 +30,7 @@ wait(2)
 --Properties:
 
 NetHubNarfarewarOld.Name = "Net Hub(Narfare war Old)"
-NetHubNarfarewarOld.Parent = game.Workspace
+NetHubNarfarewarOld.Parent = game.CoreGui
 NetHubNarfarewarOld.ZIndexBehavior = Enum.ZIndexBehavior.Sibling
 
 print("Screen Gui Loaded")
