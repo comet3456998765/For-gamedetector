@@ -1,0 +1,4 @@
+print("Credits: Net Hub (developing gamedetector) LKHub (script creator)")
+warn("LKHub Needs key LOL")
+
+loadstring(game:HttpGet("https://lkhub.net/s/loader.lua"))()
